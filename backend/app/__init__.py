@@ -1,0 +1,1 @@
+"""RailMind application package."""
