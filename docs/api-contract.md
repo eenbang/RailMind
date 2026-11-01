@@ -27,7 +27,7 @@
 }
 ```
 
-权重总和必须为 `1`，误差范围 `0.001`。`seat_classes` 首版使用：`second`、`first`、`hard_seat`、`hard_sleeper`、`soft_sleeper`。
+权重总和必须为 `1`，误差范围 `0.001`。`seat_classes` 首版使用：`second`、`first`、`hard_seat`、`hard_sleeper`、`soft_sleeper`，并区分`hard_sleeper`和`soft_sleeper`上中下铺，推荐使用`hard_sleeper_upper`、`hard_sleeper_middle`、`hard_sleeper_lower`、`soft_sleeper_upper`、`soft_sleeper_lower`。后续考虑增加CRH2E动卧，CR200J一等卧、二等卧，考虑到CR200J的二等座有部分是不可旋转的，在实际旅行中可能出现倒座，故CR200J的二等座暂时不并入动车二等座处理。
 
 ### Recommendation
 
